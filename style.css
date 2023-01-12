@@ -33,53 +33,36 @@ body, html {
     position: relative;
   }
   
-  /* Add styles to the form container */
-  .container {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-  
-    width:500px;
-    max-width: 500px;
-    padding: 10px;
-  }
-  
   /* Full-width input fields */
   input[type=text], input[type=password] {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
   }
   
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
   
-  /* Set a style for the submit button */
-  .btn {
+  
 
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 10%;
-    opacity: 0.9;
-    align-items:flex-end
+  /*This adds a hover function to the submit button */
+
+  .submitbutton:hover {
+    opacity: 6;
+    
   }
-  
-  .btn:hover {
-    opacity: 1;
-  }
+
+
+/* Change size of submit button */
+
+  input[type=submit] {
+   height: 3em;}
 
 
   /* This styles the text box and also puts the submit button to the side of the text box */
 
-  field { font-family:arial, sans-serif; border-color: #d9d9d9; border-top:solid 1px #c0c0c0; }
-input.field{width:60%;}
-.fieldwrapper{
-white-space: nowrap;
-}
+ input.field{width:60%;}
+
+.fieldwrapper
+ 
+{white-space: nowrap;}
