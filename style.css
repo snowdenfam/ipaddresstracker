@@ -3,9 +3,11 @@ body {
   }
   
   h1 {
-    color: navy;
+    color: white;
     margin-left: 20px;
   }
+
+
 
 
 
@@ -20,6 +22,7 @@ body, html {
   
   * {
     box-sizing: border-box;
+    text-align: center;
   }
   
   .bg-img {
@@ -42,7 +45,7 @@ body, html {
     margin-right: auto;
     text-align: left;
   
-    width:450px;
+    width:500px;
     max-width: 500px;
     padding: 10px;
   }
@@ -63,13 +66,14 @@ body, html {
   
   /* Set a style for the submit button */
   .btn {
+
     background-color: #04AA6D;
     color: white;
-    padding: 16px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 10%;
     opacity: 0.9;
+    align-items:flex-end
   }
   
   .btn:hover {
