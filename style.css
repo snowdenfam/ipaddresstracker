@@ -4,6 +4,7 @@
   h1 {
     color: white;
     margin-left: 20px;
+    padding-top: 50px;
   }
   
 /* Form Styling */
@@ -74,6 +75,8 @@ body, html {
     opacity: 1;
   }
 
+
+  /* This styles the text box and also puts the submit button to the side of the text box */
 
   field { font-family:arial, sans-serif; border-color: #d9d9d9; border-top:solid 1px #c0c0c0; }
 input.field{width:60%;}
