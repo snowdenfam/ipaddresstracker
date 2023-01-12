@@ -50,12 +50,14 @@ body, html {
   
   /* Add styles to the form container */
   .container {
-    position: absolute;
-    right: 90;
-    left: 90;
+    position: relative;
+    z-index: 10;
     margin: 20px;
+    top:40px;
+    right:5px;
+    left:
     max-width: 300px;
-    padding: 16px;
+    padding: 10px;
   }
   
   /* Full-width input fields */
