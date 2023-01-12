@@ -55,8 +55,8 @@ body, html {
 
 /* Change size of submit button */
 
-  input[type=submit] {
-   height: 3em;}
+  input[type=image] {
+   height: 1em;}
 
 
   /* This styles the text box and also puts the submit button to the side of the text box */
