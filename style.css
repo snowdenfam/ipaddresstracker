@@ -56,7 +56,14 @@ body, html {
 /* Change size of submit button */
 
   input[type=image] {
-   height: 1em;}
+   height: 3em;
+   background-color: black;
+   
+  
+  
+  }
+
+   
 
 
   /* This styles the text box and also puts the submit button to the side of the text box */
@@ -66,3 +73,4 @@ body, html {
 .fieldwrapper
  
 {white-space: nowrap;}
+
