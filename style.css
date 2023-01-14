@@ -3,6 +3,7 @@
 
   h1 {
     color: white;
+    font-size: 30px;
     margin-left: 20px;
     padding-top: 50px;
   }
@@ -39,7 +40,7 @@ body, html {
 
 /* Buttons */
 
-.btn--green {
+.btn--black {
     background-color: black;
 }
 
@@ -49,13 +50,9 @@ body, html {
 }
 
 .btn {
-    border: 1px solid transparent;
+    border:0.01mm solid transparent;
     cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
     font-size: 14px;
-    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #fff;
     border-radius: 0 50px 50px 0;
 }
 
@@ -67,10 +64,10 @@ body, html {
     border-radius: 50px 0 0 50px;
     border-width: 1px;
     border-color: #ddd;
-    border-style: solid;
+
     padding: 12px 20px 13px 20px;
     margin-right: -5px;
-    width: calc(100% - 95px);
+    width: 50%;
     line-height: normal;
 }
 
