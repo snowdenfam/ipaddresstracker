@@ -23,6 +23,7 @@ body, html {
     background-image: url("images/pattern-bg.png");
   
     min-height: 380px;
+    max-height: 50px;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -87,7 +88,7 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {margin: 0 -8px;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -97,14 +98,49 @@ body {
 }
 
 /* Style the counter cards */
-.card {
+.cardone {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 80px;
-  margin-top: 70px;
+  padding: 100px;
+  margin-top: 100px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   text-align: center;
   background-color: #f1f1f1;
-  border-radius: 25px;
+ 
+ 
 }
+
+
+.cardtwo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 100px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: #f1f1f1;
+ 
+ 
+}
+
+
+.cardthree {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 100px;
+  margin-top: 100px;
+  text-align: center;
+  background-color: #f1f1f1;
+ 
+}
+
+.cardfour {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 100px;
+  margin-top: 100px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
