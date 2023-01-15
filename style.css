@@ -22,8 +22,8 @@ body, html {
     /* The image used */
     background-image: url("images/pattern-bg.png");
   
-    min-height: 380px;
-    max-height: 50px;
+   height:300px;
+    
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -84,6 +84,8 @@ body {
 .column {
   float: left;
   width: 25%;
+  height:300px;
+  margin-top:50px;
   padding: 0 px;
   background-color: white;
   display: flex;
@@ -95,61 +97,79 @@ body {
 
 
 
-/* Style the counter cards */
-.cardone {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 100px;
-  margin-top: 100px;
-  margin-left: 150px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  text-align: center;
+
+
+.cardGroup {
+  /**
+   * Lay out the children of this container with
+   * flexbox, which is horizontal by default.
+   */
+  display: flex;
+  padding-bottom: 100px;
+  margin-top:50px;
+
+  border: 1px solid #CAD0D2;
   background-color: white;
- 
- 
-}
-
-
-.cardtwo {
+  border-radius: 40px;
+  overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 100px;
-  width:auto;
-  margin-top: 100px;
-  text-align: center;
-  background-color: white;
  
- 
+  
 }
 
-
-.cardthree {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 100px;
-  margin-top: 100px;
-  text-align: center;
-  background-color: White;
- 
-}
-
-.cardfour {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 100px;
-  margin-top: 100px;
-  margin-right: 150px;
-  border-bottom-right-radius: 25px;
-  border-top-right-radius: 25px;;
-  text-align: center;
-  background-color: White;
-}
-
-
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+  .cardGroup__card {
+    /**
+     * The flex property is a short-hand for setting
+     * the flex-grow, flex-shrink, and flex-basis
+     * properties. These properties control how the
+     * element resizes to fill its container.
+     *
+     * We'll set flex-grow to 1 so that it will
+     * expand to fill its container. (The default
+     * default value is 0.)
+     *
+     * We'll also set flex-shrink to 1 so that the
+     * element will shrink as its container gets
+     * smaller. (The default value is 1.)
+     *
+     * Last, we set flex-basis to 0 so that its
+     * size is solely determined by the size of
+     * the container. (The default value
+     * is auto, which would cause the content's
+     * size to also be a factor in this calculation.)
+     *
+     * The net result of these properties is that the
+     * element is a fluid size, and will expand and
+     * shrink with its container and siblings, but
+     * they will all have the same size, even if they
+     * have different amounts of content.
+     *
+     * NOTE: IE11 ignores flex short-hand declarations
+     * with unitless flex-basis values. So we have to
+     * use 0% instead of 0 as a workaround. You can
+     * find more info at:
+     * github.com/philipwalton/flexbugs.
+     */
+    flex: 1 1 0%;
+    
+    border: none;
+    border-radius: 0;
   }
-}
+
+  .cardGroup__card + .cardGroup__card {
+    border-left: 1px solid #D7DBDD;
+  }
+
+  .cardGroup__cardDescription {
+    /**
+     * We're doing almost the exact same thing here as
+     * we did above. The difference is that its
+     * flex-basis is auto, so now the size of its content
+     * will affect how large it is.
+     */
+    flex: 1 1 auto;
+   
+  }
+
 
 
