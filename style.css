@@ -85,17 +85,15 @@ body {
   float: left;
   width: 25%;
   padding: 0 px;
+  background-color: white;
+  display: flex;
+  border: 1px solid #CAD0D2;
+  border-radius: 40px;
+  overflow: hidden;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -8px;}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /* Style the counter cards */
 .cardone {
@@ -113,6 +111,7 @@ body {
 
 
 .cardtwo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 100px;
   width:auto;
   margin-top: 100px;
@@ -124,7 +123,7 @@ body {
 
 
 .cardthree {
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 100px;
   margin-top: 100px;
   text-align: center;
@@ -133,7 +132,7 @@ body {
 }
 
 .cardfour {
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 100px;
   margin-top: 100px;
   margin-right: 150px;
