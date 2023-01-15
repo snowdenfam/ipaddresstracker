@@ -92,6 +92,7 @@ body {
   margin-top:50px;
   margin-left:100px;
   margin-right:100px;
+  
 
   border: 1px solid #CAD0D2;
   background-color: white;
@@ -157,4 +158,9 @@ body {
   }
 
 
+/* This changes aspects of the text inside the cards */
+
+.card__descriptionText {
+margin-top:50px
+}
 
