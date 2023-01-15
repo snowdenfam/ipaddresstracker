@@ -113,7 +113,6 @@ body {
 
 
 .cardtwo {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 100px;
   width:auto;
   margin-top: 100px;
@@ -125,7 +124,7 @@ body {
 
 
 .cardthree {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  
   padding: 100px;
   margin-top: 100px;
   text-align: center;
@@ -134,7 +133,7 @@ body {
 }
 
 .cardfour {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  
   padding: 100px;
   margin-top: 100px;
   margin-right: 150px;
