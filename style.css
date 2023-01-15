@@ -80,23 +80,6 @@ body {
 
 
 
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  height:300px;
-  margin-top:50px;
-  padding: 0 px;
-  background-color: white;
-  display: flex;
-  border: 1px solid #CAD0D2;
-  border-radius: 40px;
-  overflow: hidden;
-}
-
-
-
-
 
 
 .cardGroup {
@@ -107,6 +90,8 @@ body {
   display: flex;
   padding-bottom: 100px;
   margin-top:50px;
+  margin-left:100px;
+  margin-right:100px;
 
   border: 1px solid #CAD0D2;
   background-color: white;
