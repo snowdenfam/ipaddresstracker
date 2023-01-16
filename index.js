@@ -1,7 +1,8 @@
 
   function getIP(json) {
-    document.write("My public IP address is: ", json.ip);
-  }
-</script>
+    document.getElementById("ip-address").innerHTML = " " + json.ip;
+}
 
-<script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+var script = document.createElement("script");
+script.src = "https://api.ipify.org?format=jsonp&callback=getIP";
+document.head.appendChild(script);
