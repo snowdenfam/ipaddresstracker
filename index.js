@@ -9,6 +9,6 @@ document.head.appendChild(script);
 
 
 function showIpAddress() {
-  var originalName = document.getElementById("txtInputData").value;
-  document.getElementById("show_name").innerHTML = "Your Name is :" + originalName;
+  var ipAddress = document.getElementById("txtInputData").value;
+  document.getElementById("show_name").innerHTML = "" + ipAddress;
 }
