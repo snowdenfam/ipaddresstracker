@@ -28,3 +28,4 @@ function showLocation() {
   var ipAddress = document.getElementById("txtInputData").value;
   document.getElementById("location").innerHTML = "" + location;
 }
+
