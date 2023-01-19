@@ -37,6 +37,6 @@ const IP_API_URL = `https://geo.ipify.org/api/v1?apiKey=${API_KEY}`;
 const button = document.querySelector('.submitButtonIMG');
 const ip_address = document.querySelector('.ip-address');
 const region = document.querySelector('.location');
-const timezone = document.querySelector('.header__ip-timezone');
-const isp = document.querySelector('.header__ip-isp');
+const timezone = document.querySelector('.timezone');
+const isp = document.querySelector('.isp');
 
